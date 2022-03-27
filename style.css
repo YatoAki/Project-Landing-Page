@@ -55,10 +55,12 @@ ul{
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
+  flex-wrap: wrap;
 }
 
 .left-hero{
   width: 500px;
+  margin-bottom: 30px;
 }
 
 .main{
@@ -191,4 +193,16 @@ em{
   border-style: solid;
   border-color: #F9FAF8;
   border-width: 1px;
+}
+
+/* Footer */
+
+.footer{
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  color: #F9FAF8;
+  font-size: 12px;
 }
