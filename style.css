@@ -4,9 +4,21 @@ body{
   min-height: 100vh;
 }
 
-.container{
+button{
+  font-family: 'roboto', 'sans-serif';
+  border-radius: 5px;
+  border: none;
+  padding: 8px 30px;
+  background-color: #3882F6;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+/* Header */
+
+.header{
   display: flex;
-  padding: 0 200px;
+  padding: 15px 100px;
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
@@ -18,7 +30,7 @@ ul{
   padding: 0;
 }
 
-a{
+.sub ,a{
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
@@ -27,9 +39,53 @@ a{
 .logo{
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bold;
 }
 
 .right-links{
   display: flex;
   gap:30px;
+}
+
+/* Hero */
+
+.hero-container{
+  display: flex;
+  padding: 80px 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.left-hero{
+  width: 500px;
+}
+
+.main{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.sub{
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.right-hero{
+  width: 50%;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
+.secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
